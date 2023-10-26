@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:GConverterApp"
         mc:Ignorable="d"
         Title="ProjectWindow" Height="1080" Width="1920" WindowState="Maximized">
-    <DockPanel LastChildFill="True" >
+    <DockPanel Name="dockPanel" LastChildFill="True" >
         <Menu Height="25"  VerticalAlignment="Top" Background="LightGray" DockPanel.Dock="Top">
             <Menu.ItemsPanel>
                 <ItemsPanelTemplate>
@@ -26,11 +26,13 @@
             <MenuItem Header="View" ></MenuItem>
             <MenuItem Header="Menu" Click="openMenu" HorizontalAlignment="Right"></MenuItem>
         </Menu>
-        <Canvas Name="RightMenu" DockPanel.Dock="Right"   Height="1038" Width="250" Background="White" RenderTransformOrigin="1,1">
-            <Button Content="Button" Height="46" Canvas.Left="20" Canvas.Top="46" Width="184"/>
-            <Button Content="Button" Height="45" Canvas.Left="55" Canvas.Top="463" Width="149"/>
-        </Canvas>
-        <Canvas>
+        <ScrollViewer Name="RightMenu" DockPanel.Dock="Right" RenderTransformOrigin="1,1" Panel.ZIndex="9999" Width="250">
+            <Canvas Height="1038" Width="250" Background="White">
+                <Button Content="Button" Height="46" Canvas.Left="20" Canvas.Top="46" Width="184"/>
+                <Button Content="Button" Height="45" Canvas.Left="55" Canvas.Top="463" Width="149"/>
+            </Canvas>
+        </ScrollViewer>
+        <Canvas Name="CanvasMain" MouseMove="Canvas_OnMouseMove">
             <Canvas.Background>
                 <DrawingBrush TileMode="Tile" Viewport="0,0,20,20" 
                                      ViewportUnits="Absolute">
