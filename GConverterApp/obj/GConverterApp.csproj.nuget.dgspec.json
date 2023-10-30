@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\GConveter\\GConverterApp\\GConverterApp.csproj": {}
+    "D:\\GProject\\GConverterApp\\GConverterApp.csproj": {}
   },
   "projects": {
-    "E:\\GConveter\\GConverterApp\\GConverterApp.csproj": {
+    "D:\\GProject\\GConverterApp\\GConverterApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GConveter\\GConverterApp\\GConverterApp.csproj",
+        "projectUniqueName": "D:\\GProject\\GConverterApp\\GConverterApp.csproj",
         "projectName": "GConverterApp",
-        "projectPath": "E:\\GConveter\\GConverterApp\\GConverterApp.csproj",
-        "packagesPath": "C:\\Users\\radev\\.nuget\\packages\\",
-        "outputPath": "E:\\GConveter\\GConverterApp\\obj\\",
+        "projectPath": "D:\\GProject\\GConverterApp\\GConverterApp.csproj",
+        "packagesPath": "C:\\Users\\Павел\\.nuget\\packages\\",
+        "outputPath": "D:\\GProject\\GConverterApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\radev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Павел\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows"
+          "net6.0-windows7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -45,8 +45,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -58,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
