@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\wpf\GConverterApp\GConverterApp\obj\Debug\net6.0-windows\
+E:\GConveter\GConverterApp\obj\Debug\net6.0-windows\
 GConverterApp
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-D:\wpf\GConverterApp\GConverterApp\App.xaml
+E:\GConveter\GConverterApp\App.xaml
 21603012036
 
-51446324864
-194-1951243044
+61441429552
+194-200944676
 MainWindow.xaml;ProjectWindow.xaml;
 
-False
+True
 
