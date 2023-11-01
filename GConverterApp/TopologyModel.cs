@@ -30,7 +30,7 @@ namespace GConverterApp
                 switch (columnName)
                 {
                     case "NameProject":
-                        if (String.IsNullOrEmpty(NameProject)) 
+                        if (String.IsNullOrWhiteSpace(NameProject)) 
                         {
                             error = "Название проекта не может быть пустым.";
                         }
